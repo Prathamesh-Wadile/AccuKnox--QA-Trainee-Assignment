@@ -21,9 +21,3 @@ else
   echo "Backup failed!" >> $BACKUP_LOG
 fi
 
-# Send an email notification (optional)
-# You can use tools like `mail` or `mutt` to send email notifications.
-# Here's a basic example using `mail`:
-# if [ $? -ne 0 ]; then
-#   echo "Backup failed. Please check the log for details." | mail -s "Backup Failure Alert" your_email@example.com
-# fi
